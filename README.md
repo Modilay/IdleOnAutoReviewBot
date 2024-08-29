@@ -56,6 +56,30 @@ python -m flask run
 or, if you're using PyCharm, run one of the two saved run configurations.
 <hr/>
 
+### i18n
+
+#### Firstly, extract the string
+```powershell
+pybabel extract -F babel.cfg -o messages.pot .
+```
+#### If the translations folder does not exist, initialize it first
+```powershell
+pybabel init -i messages.pot -d translations -l zh_CN
+```
+
+#### Otherwise update translation: 
+```powershell
+pybabel update -i messages.pot -d translations
+```
+#### Finally compile translation: 
+```powershell
+pybabel compile -d translations
+```
+
+
+
+<hr/>
+
 ### Test
 
 To run tests, run:
