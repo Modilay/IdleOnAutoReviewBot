@@ -1,10 +1,18 @@
 import os
 import sass
 
-from flask import Flask
+from flask import Flask,request
 from pathlib import Path
 
+from flask_babel import Babel
+
 app = Flask(__name__)
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
+app.config['BABEL_DEFAULT_TIMEZONE'] = 'UTC'
+
+
+babel = Babel(app, locale_selector=lambda: request.accept_languages.best_match(['zh', 'en']))
+
 
 app.config.update(dict(
     DEBUG=True,
