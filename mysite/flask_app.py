@@ -9,7 +9,6 @@ from flask import g, render_template, request, redirect, Response, send_from_dir
 import consts
 import taskSuggester
 from models import custom_exceptions
-from mysite.config import app, babel
 from utils.data_formatting import HeaderData
 from models.models import AdviceWorld
 from models.custom_exceptions import (

@@ -1,0 +1,150 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-30 01:44+0800\n"
+"PO-Revision-Date: 2024-08-29 23:48+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: consts.py:1485
+msgid "Autoloot purchased"
+msgstr "已购买自动拾取"
+
+#: consts.py:1491
+msgid "Rift Slug acquired"
+msgstr "已获得 Rift Slug（+25级天赋宠物）"
+
+#: consts.py:1497
+msgid "Doot acquired"
+msgstr "已获得 Doot"
+
+#: consts.py:1503
+msgid "Sheepie acquired"
+msgstr "已获得 Sheepie （绵羊，炼金锅全装备的宠物）"
+
+#: consts.py:1509
+msgid "Order groups by tier"
+msgstr "按层级排序组"
+
+#: consts.py:1515
+msgid "Hide Completed"
+msgstr "隐藏已完成"
+
+#: consts.py:1521
+msgid "Show progress bars"
+msgstr "显示进度条"
+
+#: consts.py:1527
+msgid "Handedness"
+msgstr "惯用手"
+
+#: templates/footer.html:2
+msgid "Unless otherwise noted, all image credits to"
+msgstr "除非另有说明，否则所有图像均归"
+
+#: templates/sidebar.html:3
+msgid "Welcome to"
+msgstr "欢迎使用"
+
+#: templates/sidebar.html:4
+msgid "Join the"
+msgstr "加入"
+
+#: templates/sidebar.html:4
+msgid "for the detailed patch notes!"
+msgstr "以获取详细的补丁说明！"
+
+#: templates/sidebar.html:8
+msgid ""
+"Heads up! You're on the beta-testing page. If you run into problems, try "
+"heading back to the"
+msgstr "小心！您正在访问 beta 测试页面。如果您遇到问题，请尝试返回"
+
+#: templates/sidebar.html:10
+msgid "Currently beta testing:"
+msgstr "当前 beta 测试："
+
+#: templates/sidebar.html:12
+msgid "To try out the beta site, head to the"
+msgstr "想使用Beta版本，请前往"
+
+#: templates/sidebar.html:16
+msgid "Most recent update"
+msgstr "最近更新"
+
+#: templates/sidebar.html:16
+msgid ""
+"New Sigil section, Printer Output sources info, alchemy requirement "
+"adjustments"
+msgstr "新增 Sigil(炼金魔符) 部分、打印机输出来源信息，炼金术的需求调整"
+
+#: templates/sidebar.html:18
+msgid "Previous update"
+msgstr "上次更新"
+
+#: templates/sidebar.html:18
+msgid "Various tweaks. Check Discord for exact notes :p"
+msgstr "各种调整，自己去 Discord 查看详情吧 :p"
+
+#: templates/sidebar.html:21
+msgid "This tool will retrieve the PUBLIC profile from"
+msgstr "此工具将从"
+
+#: templates/sidebar.html:22
+msgid "for evaluation."
+msgstr "中检索公开的配置文件来进行评估"
+
+#: templates/sidebar.html:23
+msgid "If you haven't uploaded your profile publicly before,"
+msgstr "如果您之前没有公开上传过您的个人资料"
+
+#: templates/sidebar.html:23
+msgid "do it here"
+msgstr "请在此处进行"
+
+#: templates/sidebar.html:26
+msgid "Alternatively, you can provide Raw JSON data."
+msgstr "或者，您也可以提供 Raw JSON 数据"
+
+#: templates/sidebar.html:27
+msgid "Click on the Copy Raw JSON button. Paste results below."
+msgstr "单击 Copy Raw Json 按钮。将结果粘贴到下面"
+
+#: templates/sidebar.html:28
+msgid "Click on the"
+msgstr "单击"
+
+#: templates/sidebar.html:29
+msgid "button. Paste results below."
+msgstr "按钮。将结果粘贴到下面"
+
+#: templates/sidebar.html:31
+msgid "Feature backlog can be found in the"
+msgstr "待开发功能列表 你可以在这里查看"
+
+#: templates/sidebar.html:32
+msgid "Find this app on"
+msgstr "Github开源地址 "
+
+#: templates/sidebar.html:41
+msgid ""
+"Please enter your first IdleOn character's name, or Paste in your Raw "
+"Game JSON from IE/IT"
+msgstr "请输入您的第一个IdleOn角色的名称，或从IE/IT粘贴您的Raw Game JSON"
+
+#: templates/sidebar.html:42
+msgid "submit"
+msgstr "提交"
+

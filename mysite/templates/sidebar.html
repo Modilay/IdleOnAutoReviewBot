@@ -1,33 +1,35 @@
 <aside id="drawer">
     <p>
-        Welcome to <a href="/">IE AutoReview Tool - By Scoli290</a><br>
-        Join the <a href="{{ config["DISCORD"] }}" target="_blank">Discord</a> for the detailed patch notes!
+        {{ _("Welcome to")}} <a href="/">IE AutoReview Tool - By Scoli290</a><br>
+        {{ _("Join the")}} <a href="{{ config["DISCORD"] }}" target="_blank">Discord</a> {{ _("for the detailed patch notes!")}}
     </p>
     <p>
     {% if beta %}
-        <strong>Heads up! You're on the beta-testing page. If you run into problems, try heading back to the <a href="{{ live_link }}" target="_blank">Live Page</a></strong>
+        <strong>{{ _("Heads up! You're on the beta-testing page. If you run into problems, try heading back to the")}} <a href="{{ live_link }}" target="_blank">Live Page</a></strong>
         <br>
-        Currently beta testing: 2024-08-28: TBD!
+        {{ _("Currently beta testing:")}} 2024-08-28: TBD!
     {% else %}
-        <strong>To try out the beta site, head to the <a href="{{ beta_link }}" target="_blank">Beta Page</a></strong>
+        <strong>{{ _("To try out the beta site, head to the")}} <a href="{{ beta_link }}" target="_blank">Beta Page</a></strong>
     {% endif %}
     </p>
     <p>
-        Most recent update 2024-08-28: New Sigil section, Printer Output sources info, alchemy requirement adjustments
+        {{ _("Most recent update") }} 2024-08-28: {{ _("New Sigil section, Printer Output sources info, alchemy requirement adjustments")}}
         <br>
-        Previous update 2024-08-21: Various tweaks. Check Discord for exact notes :p
+        {{ _("Previous update")}} 2024-08-21: {{ _("Various tweaks. Check Discord for exact notes :p")}}
     </p>
     <p>
-        This tool will retrieve the PUBLIC profile from <a href="{{ config["IE"] }}" target="_blank">IdleOn Efficiency</a> for evaluation.<br>
-        If you haven't uploaded your profile publicly before, <a href="{{ config["IE_UPLOAD"] }}" target="_blank">do it here</a>.
+        {{ _("This tool will retrieve the PUBLIC profile from")}} <a href="{{ config["IE"] }}" target="_blank">IdleOn Efficiency</a>
+        {{ _("for evaluation.")}}<br>
+        {{ _("If you haven't uploaded your profile publicly before,")}} <a href="{{ config["IE_UPLOAD"] }}" target="_blank">{{ _("do it here")}}</a>.
     </p>
     <p>
-        Alternatively, you can provide Raw JSON data.<br>
-        <a href="{{ config["IE_DATA"] }}" target="_blank">IdleonEfficiency</a>: Click on the Copy Raw JSON button. Paste results below.<br>
-        <a href="{{ config["IT_DATA"] }}" target="_blank">IdleonToolbox</a>: Click on the <strong>IdleonToolbox JSON</strong> button. Paste results below.
+        {{ _("Alternatively, you can provide Raw JSON data.")}}<br>
+        <a href="{{ config["IE_DATA"] }}" target="_blank">IdleonEfficiency</a>: {{ _("Click on the Copy Raw JSON button. Paste results below.")}}<br>
+        <a href="{{ config["IT_DATA"] }}" target="_blank">IdleonToolbox</a>: {{ _("Click on the")}} <strong>IdleonToolbox JSON</strong>
+        {{ _("button. Paste results below.")}}
     </p>
-    <span>Feature backlog can be found in the <a href="{{ config["TRELLO"] }}" target="_blank">Trello board</a>!</span>
-    <span>Find this app on <a href="{{ config["GITHUB"] }}" target="_blank">GitHub</a>!</span>
+    <span>{{ _("Feature backlog can be found in the")}} <a href="{{ config["TRELLO"] }}" target="_blank">Trello board</a>!</span>
+    <span>{{ _("Find this app on")}} <a href="{{ config["GITHUB"] }}" target="_blank">GitHub</a>!</span>
     <form action="/" method="POST">
         <div id="switchbox">
             {% for text, name, on, off, initial in switches %}
@@ -36,8 +38,8 @@
         </div>
         <div id="form">
             <label for="player"></label>
-            <textarea id="player" name="player" placeholder="Please enter your first IdleOn character's name, or Paste in your Raw Game JSON from IE/IT"></textarea>
-            <input type="submit" value="submit">
+            <textarea id="player" name="player" placeholder="{{ _("Please enter your first IdleOn character's name, or Paste in your Raw Game JSON from IE/IT")}}"></textarea>
+            <input type="submit" value="{{ _("submit") }}">
         </div>
     </form>
 

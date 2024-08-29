@@ -1,7 +1,7 @@
 import math
 from utils.logging import get_logger
 from utils.text_formatting import getItemDisplayName
-
+from flask_babel import lazy_gettext as _
 logger = get_logger(__name__)
 
 ###GENERAL PROGRESSION TIERS###
@@ -1482,49 +1482,49 @@ maxTiersPerGroup = 3
 #If you add a new switch here, you need to also add a default in \static\scripts\main.js:defaults
 switches = [
     {
-        "label": "Autoloot purchased",
+        "label": _("Autoloot purchased"),
         "name": "autoloot",
         "true": "",
         "false": "",
     },
     {
-        "label": "Rift Slug acquired",
+        "label": _("Rift Slug acquired"),
         "name": "riftslug",
         "true": "",
         "false": "",
     },
     {
-        "label": "Doot acquired",
+        "label": _("Doot acquired"),
         "name": "doot",
         "true": "",
         "false": "",
     },
     {
-        "label": "Sheepie acquired",
+        "label": _("Sheepie acquired"),
         "name": "sheepie",
         "true": "",
         "false": "",
     },
     {
-        "label": "Order groups by tier",
+        "label": _("Order groups by tier"),
         "name": "order_tiers",
         "true": "",
         "false": "",
     },
     {
-        "label": "Hide Completed",
+        "label": _("Hide Completed"),
         "name": "hide_completed",
         "true": "",
         "false": "",
     },
     {
-        "label": "Show progress bars",
+        "label": _("Show progress bars"),
         "name": "progress_bars",
         "true": "",
         "false": "",
     },
     {
-        "label": "Handedness",
+        "label": _("Handedness"),
         "name": "handedness",
         "true": "L",
         "false": "R",

@@ -24,3 +24,4 @@ README.txt
 /mysite/logs
 /mysite/static/styles/*.css
 *.pyc
+/mysite/messages.pot
