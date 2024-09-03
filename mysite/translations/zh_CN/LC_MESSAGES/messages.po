@@ -146,5 +146,5 @@ msgstr "请输入您的第一个IdleOn角色的名称，或从IE/IT粘贴您的R
 
 #: templates/sidebar.html:42
 msgid "submit"
-msgstr "提交"
+msgstr ""
 
